@@ -304,7 +304,7 @@ $(function() {
             notSkroll = false;
 
             $(".item__scroll").eq(numbSection).addClass("scroll_active").siblings().removeClass("scroll_active");
-        }, 2300);
+        }, 900);
     };
 
 
@@ -374,9 +374,9 @@ $(function() {
 
 
 });
-$(function() {
-    $("").on("tap", function() {
-        $(this).hide();
-    });
+// $(function() {
+//     $("").on("tap", function() {
+//         $(this).hide();
+//     });
 
-});
+// });
